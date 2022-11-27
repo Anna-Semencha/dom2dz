@@ -2,7 +2,7 @@
 
 Console.WriteLine("Введите число:");
 string n = Console.ReadLine();
-int count = n.ToString().Length;
+int count = n.ToString().Length; //счётчтк символов в числе
 if (count > 3)
 {
  Console.WriteLine(n[2].ToString());
